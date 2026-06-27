@@ -1,5 +1,9 @@
 import re
 from bs4 import BeautifulSoup
+try:
+    nltk.data.find("corpora/stopwords")
+ Lark except LookupError:
+    nltk.download("stopwords")
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 
