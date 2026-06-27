@@ -1,5 +1,6 @@
 import re
 from bs4 import BeautifulSoup
+import nltk
 try:
     nltk.data.find("corpora/stopwords")
 except LookupError:
