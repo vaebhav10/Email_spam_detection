@@ -1,10 +1,8 @@
 import re
 from bs4 import BeautifulSoup
 import nltk
-try:
-    nltk.data.find("corpora/stopwords")
-except LookupError:
-    nltk.download("stopwords")
+nltk.download("stopwords")
+nltk.download("wordnet")
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 
