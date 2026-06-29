@@ -23,7 +23,7 @@ pip install -r requirements.txt
 Execute the `main.py` to get the classification/prediction on a custom email as ham/spam locally.
 
 **Limitations:**  
-Since this project uses tfidf vectorization it does not understand the sementic meaning of texts in the Email and classifies them only based on the count of certain words that appear in the Email/text.
+Since this project uses tfidf vectorization it does not understand the semantic meaning of texts in the Email and classifies them only based on the count of certain words that appear in the Email/text.
 
 ## Deployement:
 A streamlit dashboard is provided for the interactive prediction of an Email.
