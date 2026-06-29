@@ -2,7 +2,7 @@
 # Email Spam Detection
 
 ### Overview 
-This project pipline uses classical ML to detect/classify an email ham/Spam.
+This project pipeline uses classical ML to detect/classify an email Ham/Spam.
 
 It works on the *tfidf principle* i.e: tracking the kind of words that appears in spam/ham message.
 
@@ -14,10 +14,10 @@ cd Email_spam_detection
 ```
 ### Create a venv and install dependencies(for linux/macOS) :
 
-Use python3.1 version for smooth workflow
+Use python3.10 version for smooth workflow
 ```bash
 python3.10 -m venv .venv
-source venv/bin/activate
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
 Execute the `main.py` to get the classification/prediction on a custom email as ham/spam locally.
