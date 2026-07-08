@@ -4,8 +4,11 @@
 ### Overview 
 This project pipeline uses classical ML to detect/classify an email Ham/Spam.
 
-It works on the *tfidf principle* i.e: tracking the kind of words that appears in spam/ham message.
+This project uses a deep learning pipeline to classify emails/messages as Spam or Ham.
 
+The current model is based on an LSTM (Long Short-Term Memory) architecture, which processes tokenized text sequences and learns contextual patterns in message content.
+A TextVectorization layer is used to convert raw text into padded integer sequences before inference.
+  
 ## How to run/Installation:
 clone the repo:
 ```bash
@@ -20,10 +23,6 @@ python3.10 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
-Execute the `main.py` to get the classification/prediction on a custom email as ham/spam locally.
-
-**Limitations:**  
-Since this project uses tfidf vectorization it does not understand the semantic meaning of texts in the Email and classifies them only based on the count of certain words that appear in the Email/text.
 
 ## Deployement:
 A streamlit dashboard is provided for the interactive prediction of an Email.
