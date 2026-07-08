@@ -26,4 +26,4 @@ pip install -r requirements.txt
 
 ## Deployement:
 A streamlit dashboard is provided for the interactive prediction of an Email.
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://vaebhav10-email-spam-detection-app-oqnbt1.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([https://vaebhav10-email-spam-detection-app-oqnbt1.streamlit.app/](https://vaebhav10-email-spam-detection-app-0fulni.streamlit.app/))
