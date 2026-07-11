@@ -1,8 +1,4 @@
-
-# Email Spam Detection
-
 ### Overview 
-This project pipeline uses classical ML to detect/classify an email Ham/Spam.
 
 This project uses a deep learning pipeline to classify emails/messages as Spam or Ham.
 
