@@ -22,7 +22,7 @@ def cleanup(text):
     soup = BeautifulSoup(text, 'html.parser')
     text = soup.get_text(separator = ' ')
 
-    text = re.sub(r'[^a-zA-Z0-9\s]','', text)
+    text = re.sub(r'[^a-zA-Z0-9\s]',' ', text)
 
     text = ' '.join([lem.lemmatize (w) for w in text.split()])
     
